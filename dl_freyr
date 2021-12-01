@@ -16,7 +16,7 @@ BASEDIR=`pwd`
 
 source ~/.config/dl_freyr/config
 
-mkdir -p ${BC_BASEDIR}
+mkdir -p ${BASEDIR}
 
 while getopts q:h OPT
 do
