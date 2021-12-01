@@ -31,7 +31,7 @@ do
 done
 shift $(($OPTIND - 1))
 
-echo "reading from "${FILENAME_QUEUE}"..."
+echo "reading from "${FILENAME_QUEUE}" ..."
 
 for LINE in `cat ${FILENAME_QUEUE} | grep -v "^#"`
 do
